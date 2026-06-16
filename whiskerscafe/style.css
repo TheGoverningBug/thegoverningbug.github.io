@@ -17,3 +17,13 @@ body {
   justify-content: space-between;
   padding: 12px 32px;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #EDD694;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
