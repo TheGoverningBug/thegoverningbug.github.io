@@ -16,6 +16,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 12px 32px;
+  gap: 40px;
 }
 
 .logo {
@@ -36,7 +37,7 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 12px;
+  gap: 28px;
   font-weight: normal;
 }
 
@@ -52,11 +53,11 @@ body {
 }
 
 .book-button {
+  margin-left: auto;
   background-colour: #EDD694;
   colour: #372D30;
   padding: 8px 20px;
   border-radius: 20px;
   text-decoration: none;
-  font-size: 18px;
   font-weight: normal;
 }
