@@ -37,13 +37,13 @@ body {
 .nav-links {
   display: flex;
   gap: 28px;
-  font-weight: normal;
 }
 
 .nav-links a {
   color: #EDD694;
   text-decoration: none;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .nav-links a:hover {
@@ -59,4 +59,5 @@ body {
   border-radius: 20px;
   text-decoration: none;
   font-weight: normal;
+  font-size: 18px;
 }
