@@ -29,14 +29,15 @@ body {
 }
 
 .logo img {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
 }
 
 .nav-links {
   display: flex;
   gap: 28px;
+  font-weight: normal;
 }
 
 .nav-links a {
@@ -48,4 +49,13 @@ body {
 .nav-links a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.book-button {
+  background-colour: #EDD694;
+  colour: #372D30;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: normal;
 }
