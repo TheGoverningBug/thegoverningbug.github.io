@@ -14,7 +14,6 @@ body {
   border-bottom: 3px solid #EDD694;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 12px 32px;
   gap: 40px;
 }
@@ -54,7 +53,7 @@ body {
 
 .book-button {
   margin-left: auto;
-  background-colour: #EDD694;
+  background-color: #EDD694;
   colour: #372D30;
   padding: 8px 20px;
   border-radius: 20px;
