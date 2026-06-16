@@ -57,15 +57,12 @@ body {
   color: #372D30;
   padding: 8px 20px;
   border-radius: 20px;
-}
-
-.book-button a {
   text-decoration: none;
   font-weight: normal;
   font-size: 18px;
 }
 
-.book-button a:hover {
+.book-button:hover {
   text-decoration: underline;
   cursor: pointer;
 }
