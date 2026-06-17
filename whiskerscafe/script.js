@@ -1,10 +1,10 @@
-/* Mobile Compatibility */
+/* Mobile Hamburger Menu */
 
-const menuButton = document.getElementById("menu-button"); /* Finds Hamburger Menu */
-const navLinks = document.getElementById("nav-links"); /* Finds Navigation Links */
+const menuButton = document.getElementById("menu-button");
+const navLinks = document.getElementById("nav-links");
 
-menuButton.addEventListener("click", function() { /* Runs Nested Code When Hamburger Button Is Clicked */
-  navLinks.classList.toggle("show"); /* Nested Code */
+menuButton.addEventListener("click", function() {
+  navLinks.classList.toggle("show"); 
 });
 
 /* Home Page Cat Slider */
