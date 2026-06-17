@@ -67,10 +67,6 @@ body {
   cursor: pointer;
 }
 
-.page-footer {
-  padding: 12px 32px;
-}
-
 .columns {
   background-color: #FFFFFF;
   border-top: 3px solid #000000;
@@ -90,4 +86,8 @@ body {
   width: 40px;
   height: 40px;
   object-fit: contain;
+}
+
+.footer-bottom {
+  padding: 12px;
 }
