@@ -184,7 +184,7 @@ img {
   }
 }
 
-/* Home Page Slider */
+/* Styling For Home Page Slider */
 
 .slider-balance {
   background-color: #D9D9D9;
@@ -301,7 +301,7 @@ promo-text a {
   text-decoration: underline;
 }
 
-/* About Whiskers Cafe Section */
+/* Styling For About Section */
 
 .about-section {
   background-color: #372D30;
@@ -327,4 +327,63 @@ promo-text a {
 .about-text p {
   margin-top: 0;
   line-height: 1.4;
+}
+
+/* Styling For Statistics Section */
+
+.stat-section {
+  background-color: #372D30;
+  color: white;
+  width: 60%;
+  margin: 8px auto;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Styling For Reviews Section */
+
+.reviews-section {
+  background-color: #372D30;
+  border-top: 3px solid #EDD694;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 20px 40px;
+}
+.review-card {
+  width: 220px;
+}
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px dashed white;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.review-user img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.review-user h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.review-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+.review-book-button {
+  background-color: #EDD694;
+  color: #372D30;
+  padding: 12px 26px;
+  border-radius: 20px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.review-book-button:hover {
+  text-decoration: underline;
 }
