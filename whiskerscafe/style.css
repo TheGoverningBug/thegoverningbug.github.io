@@ -64,3 +64,56 @@ img {
 .menu-button {
   display: none;
 }
+
+/* Styling For Footer Section */
+
+.page-footer {
+  background-color: white;
+}
+
+.footer-columns {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 28px 40px;
+  text-align: center;
+}
+.footer-section {
+  flex: 1;
+}
+.footer-section h2 {
+  font-size: 22px;
+  margin-top: 0;
+}
+.footer-section p {
+  margin: 8px 0;
+}
+
+.hygiene-image {
+  width: 100%;
+  max-width: 320px;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #372D30;
+  text-decoration: none;
+  margin: 8px 0;
+}
+.social-link img {
+  width: 28px;
+  height: 28px;
+}
+.social-link:hover {
+  text-decoration: underline;
+}
+.copyright {
+  background-color: #D3D3D3;
+  text-align: center;
+  padding: 8px 12px;
+}
