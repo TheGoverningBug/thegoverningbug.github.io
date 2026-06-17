@@ -75,3 +75,15 @@ body {
   padding: 12px;
   gap: 40px;
 }
+
+.hygiene {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.socials {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
