@@ -75,7 +75,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 12px;
-  gap: 60px;
+  gap: 120px;
 }
 
 .hygiene img {
@@ -96,4 +96,9 @@ body {
 .tiktokicon {
   width: 30px;
   height: 30px;
+}
+
+.copyright {
+  align-items: center;
+  justify-content: center;
 }
