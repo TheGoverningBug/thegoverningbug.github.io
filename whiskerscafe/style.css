@@ -219,7 +219,7 @@ img {
   font-weight: bold;
   margin: 6px 0 10px;
 }
-promo-text a {
+.promo-text a {
   background-color: #2F4B5B;
   color: white;
   padding: 8px 14px;
@@ -297,7 +297,7 @@ promo-text a {
   background-color: #2F4B5B;
   color: white;
 }
-.primary-button:hover, secondary-button:hover {
+.primary-button:hover, .secondary-button:hover {
   text-decoration: underline;
 }
 
