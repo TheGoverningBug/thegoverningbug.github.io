@@ -23,6 +23,7 @@ img {
   align-items: center;
   gap: 40px;
   padding: 8px 32px;
+  position: relative;
 }
 .logo {
   display: flex;
@@ -387,3 +388,107 @@ img {
 .review-book-button:hover {
   text-decoration: underline;
 }
+
+/* Homepage Mobile Body Compatibility */
+
+@media (max-width: 768px) {
+  .slider-balance {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 24px 16px;
+    gap: 22px;
+  }
+  .promo-card {
+    width: 100%;
+    max-width: 270px;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+  .promo-card img {
+    width: 90px;
+  }
+  .group-balance {
+    display: none;
+  }
+  .cat-slider {
+    width: 100%;
+    max-width: 420px;
+    height: 180px;
+    margin: 0 auto;
+  }
+  .slider-arrow {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+  }
+  #previous-cat {
+    left: 8px;
+  }
+  #next-cat {
+    right: 8px;
+  }
+  .slider-buttons {
+    bottom: 16px;
+    gap: 10px;
+  }
+  .primary-button, .secondary-button {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+/* Mobile Compatibility For About Section */
+  
+  .about-section {
+    width: 100%;
+    padding: 22px 18px;
+  }
+  .about-section h1 {
+    font-size: 22px;
+  }
+  .subtitle {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .about-text h2 {
+    font-size: 16px;
+  }
+  .about-text p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+/* Mobile Compatibility For Statistic Section */
+
+  .stat-section {
+    width: 100%;
+    margin: 8px 0;
+    padding: 18px 16px;
+  }
+  .stat-section h2 {
+    font-size: 18px;
+  }
+  .stat-section p {
+    font-size: 14px;
+  }
+
+/* Mobile Compatibility For Reviews Section */
+
+  .reviews-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+    gap: 18px;
+  }
+  .review-card {
+    width: 100%;
+    max-width: 300px;
+  }
+  .review-user h3 {
+    font-size: 16px;
+  }
+  .review-card p {
+    font-size: 14px;
+  }
+  .review-book-button {
+    padding: 10px 24px;
+  }
