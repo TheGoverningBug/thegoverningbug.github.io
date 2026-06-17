@@ -4,7 +4,7 @@ const menuButton = document.getElementById("menu-button");
 const navLinks = document.getElementById("nav-links");
 
 menuButton.addEventListener("click", function() {
-  navLinks.classList.toggle("show"); 
+  navLinks.classList.toggle("show");
 });
 
 /* Home Page Cat Slider */
@@ -17,7 +17,7 @@ let currentCatImage = 0;
 
 function showCatImage(imageNumber) {
   sliderImages.forEach(function(image) {
-    image.style.display = "none":
+    image.style.display = "none";
 });
   sliderImages[imageNumber].style.display = "block";
 }
