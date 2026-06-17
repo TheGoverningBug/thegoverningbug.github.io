@@ -98,7 +98,8 @@ body {
   height: 30px;
 }
 
-.copyright p {
+.copyright {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
