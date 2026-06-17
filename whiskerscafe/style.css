@@ -125,6 +125,8 @@ img {
   .page-header {
     padding: 10px 14px;
     gap: 12px;
+    position: relative;
+    z-index: 100;
   }
   .logo {
     font-size: 18px;
