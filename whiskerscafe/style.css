@@ -78,9 +78,33 @@ body {
   gap: 160px;
 }
 
+.contact h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.openings h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hygiene img {
   width: 400px;
   height: 160px;
+}
+
+.hygiene h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .instagramicon {
