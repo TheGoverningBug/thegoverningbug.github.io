@@ -599,6 +599,7 @@ img {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    font-size: 18px;
   }
   .submit-booking-button:hover {
     text-decoration: underline;
