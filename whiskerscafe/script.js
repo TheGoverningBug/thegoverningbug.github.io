@@ -63,7 +63,7 @@ if (bookingForm) {
     bookingMessage.className = "";
     bookingMessage.textContent = "";
 
-    if (firstName === "" || lastName === "" {
+    if (firstName === "" || lastName === "") {
       showBookingError("Please enter your first and last name.");
       return;
     }
