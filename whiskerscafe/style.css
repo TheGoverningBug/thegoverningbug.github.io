@@ -385,7 +385,6 @@ img {
   text-decoration: none;
   white-space: nowrap;
 }
-}
 .review-book-button:hover {
   text-decoration: underline;
 }
@@ -493,7 +492,7 @@ img {
   .review-book-button {
     padding: 10px 24px;
   }
-
+}
 /* Styling For Bookings Page */
 
   .booking-section {
@@ -505,7 +504,7 @@ img {
     font-size: 24px;
     margin-bottom: 8px;
   }
-  .booking-intro {
+  .booking-sub {
     margin-bottom: 28px;
   }
   .booking-form {
