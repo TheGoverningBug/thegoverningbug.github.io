@@ -26,6 +26,55 @@
       <button class="menu-button" id="menu-button">☰</button>
     </header>
     <main>
+      <section class="booking-section">
+        <h1>Book A Visit</h1>
+        <p class="booking-sub">Complete The Form Below To Book A Visit</p>
+        <form class="booking-form" id="booking-form">
+          <h2>Personal Details</h2>
+          <div class="name-row">
+            <input type="text" id="first-name" placeholder="First Name">
+            <input type="text" id="last-name" placeholder="Last Name">
+          </div>
+          <input type="email" id="email-address" placeholder="Email Address">
+          <input type="text" id="phone-number" placeholder="Phone No.">
+          <label class="form-label" for="date-of-birth">Date Of Birth</label>
+          <input type="date" id="date-of-birth">
+          <h2>Booking Details</h2>
+          <p class="timeslot-title">Select A Timeslot</p>
+          <div class="timeslot-group">
+            <div class="timeslot-row">
+              <p>Today</p>
+              <input type="radio" id="today-1" name="timeslot" value="Today 09:45-10:45">
+                <label for="today-1">09:45-10:45</label>
+              <input type="radio" id="today-2" name="timeslot" value="Today 13:30-14:30">
+                <label for="today-1">13:30-14:30</label>
+              <input type="radio" id="today-3" name="timeslot" value="Today 15:15-16:15">
+                <label for="today-1">15:15-16:15</label>
+              <input type="radio" id="today-4" name="timeslot" value="Today 09:45-10:45">
+                <label for="today-1">17:00-18:00</label>
+            </div>
+            <div class="timeslot-row">
+              <p>Tomorrow</p>
+              <input type="radio" id="tomorrow-1" name="timeslot" value="Tomorrow 09:45-10:45">
+                <label for="tomorrow-1">09:45-10:45</label>
+              <input type="radio" id="tomorrow-1" name="timeslot" value="Tomorrow 13:30-14:30">
+                <label for="tomorrow-2">13:30-14:30</label>
+              <input type="radio" id="tomorrow-1" name="timeslot" value="Tomorrow 15:15-16:15">
+                <label for="tomorrow-3">15:15-16:15</label>
+              <input type="radio" id="tomorrow-1" name="timeslot" value="Tomorrow 17:00-18:00">
+                <label for="tomorrow-4">17:00-18:00</label>
+            </div>
+          </div>
+          <input type="number" id="visitor-number" placeholder="No. Of Visitors" min="1" max="6">
+          <div class="checkbox-row">
+            <input type="checkbox" id="rules-confirmed">
+            <label for="rules-confirmed">I Agree To The Cafe Rules - <a href="information.html">View Rules</a>
+            </label>
+          </div>
+          <p id="booking-message"></p>
+          <button type="submit" class="submit-booking-button">Book</button>
+        </form>
+      </section>
     </main>
       <footer class="page-footer">
         <div class="footer-columns">
