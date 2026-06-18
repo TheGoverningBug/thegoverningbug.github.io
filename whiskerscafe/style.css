@@ -117,7 +117,7 @@ img {
   padding: 8px 12px;
 }
 
-/* Mobile Compatibility Header */
+/* Styling For Mobile Header */
 
 @media (max-width: 768px) {
   .page-header {
@@ -160,7 +160,7 @@ img {
     border-top: 1px solid #EDD694;
   }
 
-/* Mobile Compatibility Footer */
+/* Styling For Mobile Footer */
 
   .footer-columns {
     flex-direction: column;
@@ -184,6 +184,7 @@ img {
     font-size: 12px;
   }
 }
+
 /* Styling For Home Page Slider */
 
 .slider-balance {
