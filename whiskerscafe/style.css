@@ -525,7 +525,6 @@ img {
   }
   .booking-form input[type="text"],
   .booking-form input[type="email"],
-  .booking-form input[type="date"],
   .booking-form input[type="number"] {
     width: 100%;
     background-color: #D3D3D3;
@@ -534,12 +533,6 @@ img {
     padding: 10px 14px;
     margin-bottom: 12px;
     font-family: "Trebuchet MS", Verdana, Arial, sans-serif; 
-  }
-  .form-label {
-    display: block;
-    text-align: left;
-    font-size: 14px;
-    margin-bottom: 4px;
   }
   .timeslot-title {
     margin: 0 0 10px;
@@ -578,6 +571,9 @@ img {
     margin: 14px 0;
     text-align: left;
     font-size: 14px;
+  }
+  .checkbox-row input {
+    cursor: pointer;
   }
   .checkbox-row a {
     color: #6BAFE6;
