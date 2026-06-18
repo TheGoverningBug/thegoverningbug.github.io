@@ -71,7 +71,6 @@ img {
 .page-footer {
   background-color: white;
 }
-
 .footer-columns {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
@@ -92,7 +91,6 @@ img {
 .footer-section p {
   margin: 8px 0;
 }
-
 .hygiene-image {
   width: 100%;
   max-width: 320px;
@@ -185,7 +183,6 @@ img {
   .copyright p {
     font-size: 12px;
   }
-}
 
 /* Styling For Home Page Slider */
 
