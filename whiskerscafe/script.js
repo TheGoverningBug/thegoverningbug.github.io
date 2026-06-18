@@ -71,7 +71,7 @@ if (bookingForm) {
       showBookingError("Please enter a valid email address.");
       return;
     }
-    if (phoneNumber === "" || phoneNumber.length < 10 {
+    if (phoneNumber === "" || phoneNumber.length < 10) {
       showBookingError("Please enter a valid phone number.");
       return;
     }
