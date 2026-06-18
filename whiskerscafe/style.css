@@ -183,7 +183,7 @@ img {
   .copyright p {
     font-size: 12px;
   }
-
+}
 /* Styling For Home Page Slider */
 
 .slider-balance {
@@ -383,6 +383,7 @@ img {
   border-radius: 20px;
   text-decoration: none;
   white-space: nowrap;
+}
 }
 .review-book-button:hover {
   text-decoration: underline;
