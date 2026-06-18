@@ -603,3 +603,49 @@ img {
   .submit-booking-button:hover {
     text-decoration: underline;
   }
+
+  /* Booking Form Mobile Compatibility */
+
+  @media (max-width: 768px) {
+    .booking-section {
+      padding: 24px 14px 42px;
+    }
+    .booking-section h1 {
+      font-size: 20px;
+    }
+    .booking-sub {
+      font-size: 14px;
+    }
+    .booking-form {
+      max-width: 320px;
+    }
+    .booking-form h2 {
+      font-size: 16px;
+    }
+    .name-row {
+      gap: 20px;
+    }
+    .booking-form input[type="text"],
+    .booking-form input[type="email"],
+    .booking-form input[type="number"] {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+    .timeslot-row {
+      justify-content: center;
+    }
+    .timeslot-row p {
+      width: 100%;
+      text-align: left;
+    }
+    timeslow-row label {
+      font-size: 12px;
+      padding: 7px 9px;
+    }
+    .checkbox-row {
+      font-size: 12px;
+    }
+    .submit-booking-button {
+      padding: 9px 32px;
+    }
+  }
