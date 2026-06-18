@@ -494,3 +494,118 @@ img {
   .review-book-button {
     padding: 10px 24px;
   }
+
+/* Styling For Bookings Page */
+
+  .booking-section {
+    min-height: 620px;
+    padding: 28px 16px 48px;
+    text-align: center;
+  }
+  .booking-section h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .booking-intro {
+    margin-bottom: 28px;
+  }
+  .booking-form {
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+  }
+  .booking-form h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 28px 0 14px;
+  }
+  .name-row {
+    display: flex;
+    gap: 38px;
+  }
+  .booking-form input[type="text"],
+  .booking-form input[type="email"],
+  .booking-form input[type="date"],
+  .booking-form input[type="number"] {
+    width: 100%;
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 14px;
+    padding: 10px 14px;
+    margin-bottom: 12px;
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif; 
+  }
+  .form-label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .timeslot-title {
+    margin: 0 0 10px;
+  }
+  .timeslot-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  .timeslot-row p {
+    width: 85px;
+    margin: 0;
+    text-align: left;
+  }
+  .timeslot-row input[type="radio"] {
+    display: none;
+  }
+  .timeslot-row label {
+    background-color: #D3D3D3;
+    color: #372D30;
+    padding: 7px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .timeslot-row input[type="radio"]:checked + label {
+    background-color: #EDD694;
+    font-weight: bold;
+  }
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 14px 0;
+    text-align: left;
+    font-size: 14px;
+  }
+  .checkbox-row a {
+    color: #6BAFE6;
+    text-decoration: none;
+  }
+  .checkbox-row a:hover {
+    text-decoration: underline;
+  }
+  #booking-message {
+    min-height: 22px;
+    font-weight: bold;
+  }
+  .booking-success {
+    color: green;
+  }
+  .booking-error {
+    color: red;
+  }
+  .submit-booking-button {
+    background-color: #EDD694;
+    color: #372D30;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 34px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  }
+  .submit-booking-button:hover {
+    text-decoration: underline;
+  }
