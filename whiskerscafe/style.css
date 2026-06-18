@@ -536,14 +536,13 @@ img {
     margin: 0 0 10px;
   }
   .timeslot-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: 85px repeat(4, auto);
     align-items: center;
     gap: 10px;
     margin-bottom: 8px;
-    flex-wrap: wrap;
   }
   .timeslot-row p {
-    width: 85px;
     margin: 0;
     text-align: left;
   }
@@ -632,7 +631,9 @@ img {
       font-size: 12px;
     }
     .timeslot-row {
+      display: flex;
       justify-content: center;
+      flex-wrap: wrap;
     }
     .timeslot-row p {
       width: 100%;
