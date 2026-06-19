@@ -692,12 +692,9 @@ img {
 .filter-buttons button:hover {
   text-decoration: underline;
 }
-.filter-buttons .diet-filter {
-  background-color: #2F4B5B
+.filter-buttons button.active-filter {
+  background-color: #2F4B5B;
   color: white;
-}
-.active-filter {
-  outlines: 2px solid #EDD694;
 }
 .menu-list {
   width: 80%;
@@ -735,7 +732,7 @@ img {
   font-weight: bold;
   margin: 0;
 }
-.menu-item-info [ {
+.menu-item-info p {
   margin: 5px 0 0;
   font-size: 14px;
 }
