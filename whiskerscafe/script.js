@@ -141,7 +141,7 @@ categoryButtons.forEach(function(button) {
   button.addEventListener("click", function() {
     const clickedCategory = button.getAttribute("data-category");
 
-    categoryButtons.forEeach(function(btn) {
+    categoryButtons.forEach(function(btn) {
       btn.classList.remove("active-filter");
     });
     if (selectedCategory === clickedCategory) {
