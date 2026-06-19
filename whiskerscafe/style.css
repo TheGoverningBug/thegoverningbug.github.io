@@ -687,6 +687,7 @@ img {
   padding: 10px 28px;
   cursor: pointer;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 18px;
 }
 .filter-buttons button:hover {
   text-decoration: underline;
