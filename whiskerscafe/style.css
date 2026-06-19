@@ -679,7 +679,7 @@ img {
   margin-bottom: 16px;
   flex-wrap: wrap;
 }
-filter-buttons button {
+.filter-buttons button {
   background-color: #EDD694;
   color: #372D30;
   border: none;
