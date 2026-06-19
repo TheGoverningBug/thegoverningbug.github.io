@@ -752,3 +752,84 @@ img {
 .allergen-section p {
   font-size: 14px;
 }
+
+/* Mobile Compatibility For Menu Page */
+
+@media (max-width: 768px) {
+  .menu-section {
+    width: 100%
+    min-height: auto;
+    padding: 30px 18px;
+  }
+  .menu-section h1 {
+    font-size: 22px;
+  }
+  .menu-subtitle {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+  }
+  .filter-heading {
+    font-size: 14px;
+    margin: 22px 0 10px;
+  }
+  .filter-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .filter-buttons button {
+    width: 140px;
+    padding: 9px 18px;
+    font-size: 14px;
+  }
+  .menu-list {
+    width: 100%;
+    margin-top: 34px;
+  }
+  .menu-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  .menu-item img {
+    width: 150px;
+    height: 95px;
+    object-fit: cover;
+  }
+  .menu-item-info {
+    width: 100%;
+  }
+  .menu-item-top {
+    flex-direction: column;
+    gap: 4px;
+    border-bottom: 1px solid white;
+    padding-bottom: 4px;
+  }
+  .menu-item-top h2 {
+    font-size: 16px;
+  }
+  .menu-item-top p {
+    font-size: 14px;
+  }
+  .menu-item-info p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .no-menu-message {
+    font-size: 14px;
+  }
+  .allergen-section {
+    margin-top: 45px;
+  }
+  .allergen-section h2 {
+    font-size: 16px;
+  }
+  .allergen-section p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
