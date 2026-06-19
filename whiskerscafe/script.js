@@ -99,3 +99,69 @@ function showBookingError(message) {
   bookingMessage.textContent = message;
   bookingMessage.classList.add("booking-error");
 }
+
+/* Menu Page Filtering */
+
+const categoryButtons = document.querySelectorAll(".category-filter");
+const dietButtons = document.querySelectorAll(".diet-filter");
+const menuItems= document.querySelectorAll(".menu-item");
+const noMenuMessage = document.getElementById("no-menu-message");
+
+let selectedCategory = "";
+let selectedDiet = "all";
+
+function updateMenuItems() {
+  let visibleItems = 0;
+
+  menuItems.forEach(function(item) {
+    const itemCategory = item.getAttribute("data-category");
+    const itemDiet = item.getAttribute("data-diet");
+
+    const categoryMatches = selectedCategory === "" || selectedCategory === itemCategory;
+    const dietMatches = selectedDiet === "all" || selectedDiet === itemDiet;
+
+    if (categoryMatches && dietMatches) {
+      item.style.display = "flex";
+      visibleItems = visibleItems +1;
+    } else {
+      item.style.display = "none";
+    }
+  });
+
+  if (noMenuMessage) {
+    if (visibleItems === 0) {
+      noMenuMessage.style.display = "block";
+    } else {
+      noMenuMessage.style.display = "none";
+    }
+  }
+}
+
+categoryButtons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    const clickedCategory = button.getAttribute("data-category");
+
+    categoryButtons.forEeach(function(btn) {
+      btn.classList.remove("active-filter");
+    });
+    if (selectedCategory === clickedCategory) {
+      selectedCategory = "";
+    } else {
+      selectedCategory = clickedCategory;
+      button.classList.add("active-filter");
+    }
+    updateMenuItems();
+  });
+});
+
+dietButtons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    selectedDiet = button.getAttribute("data-diet");
+
+    dietButtons.forEach(function(btn) {
+      btn.classList.remove("active-filter");
+    });
+    button.classList.add("active-filter");
+    updateMenuItems()
+  });
+});
