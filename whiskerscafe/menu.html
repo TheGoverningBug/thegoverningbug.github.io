@@ -26,6 +26,63 @@
       <button class="menu-button" id="menu-button">☰</button>
     </header>
     <main>
+      <section class="menu-section">
+        <h1>Our Menu</h1>
+        <p class="menu-subtitle">Explore Our Range Of Food, Drinks, And Desserts Before You Visit</p>
+        <p class="filter-heading">Filter By Category</p>
+        <div class="filter-buttons">
+          <button class="category-filter" data-category="food">Food</button>
+          <button class="category-filter" data-category="drinks">Drinks</button>
+          <button class="category-filter" data-category="desserts">Desserts</button>
+        </div>
+        <p class="filter-heading">Filter By Dietary Needs</p>
+        <div class="filter-buttons">
+          <button class="diet-filter active-filter" data-diet="all">All</button>
+          <button class="diet-filter" data-diet="vegetarian">Vegetarian</button>
+          <button class="diet-filter" data-diet="vegan">Vegan</button>
+          <button class="diet-filter" data-diet="gluten-free">Gluten-Free</button>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item" data-category="food" data-diet="vegetarian">
+            <img src="images/AvocadoToast.jpg" alt="Avocado Toast">
+            <div class="menu-item-info">
+              <div class="menu-item-top">
+                <h2>Avocado Toast | Vegetarian</h2>
+                <p>£4.49</p>
+              </div>
+              <p>Toasted sourdough bread topped with avocado and lemon juice.</p>
+            </div>
+          </div>
+          <div class="menu-item" data-category="desserts" data-diet="vegan">
+            <img src="images/BlueberryMuffin.jpg" alt="Vegan Blueberry Muffin">
+            <div class="menu-item-info">
+              <div class="menu-item-top">
+                <h2>Vegan Blueberry Muffin | Vegan/Dairy-Free</h2>
+                <p>£3.49</p>
+              </div>
+              <p>A blueberry muffin made without dairy or eggs.</p>
+            </div>
+          </div>
+          <div class="menu-item" data-category="desserts" data-diet="gluten-free">
+            <img src="images/ChocolateBrownie.jpg" alt="Chocolate Brownie">
+            <div class="menu-item-info">
+              <div class="menu-item-top">
+                <h2>Chocolate Brownie | Gluten-Free</h2>
+                <p>£3.49</p>
+              </div>
+              <p>Rich chocolate brownie made with gluten-free flour.</p>
+            </div>
+          </div>
+        </div>
+          <p id="no-menu-message" class="no-menu-message">No menu items match this filter.</p>
+          <section class="allergen-section">
+            <h2>Allergen Information</h2>
+            <p>
+              Please inform a member of staff prior to order placement if you have any allergies 
+              or dietary requirements.
+            </p>
+          </section>
+      </section>
     </main>
       <footer class="page-footer">
         <div class="footer-columns">
