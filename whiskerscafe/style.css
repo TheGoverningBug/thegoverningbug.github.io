@@ -1054,3 +1054,59 @@ adoption-info-card h2 {
 .adoption-main-button:hover {
   text-decoration: underline;
 }
+
+/* Mobile Compatibility For Adoption Page */
+
+@media (max-width: 768px) {
+  .adoption-section {
+    padding: 26px 16px 45px;
+  }
+  .adoption-panel {
+    width: 100%;
+    padding: 24px 18px;
+    border-radius: 0;
+  }
+  .adoption-panel h1 {
+    font-size: 22px;
+  }
+  .adoption-subtitle {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .adoption-panel h2 {
+    font-size: 18px;
+  }
+  .adoption-steps {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .adoption-step {
+    padding: 18px 16px
+  }
+  .step-number {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+  .adoption-step h3 {
+    font-size: 16px;
+  }
+  .adoption-step p {
+    font-size: 14px;
+  }
+  .adoption-info-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .adoption-info-card {
+    padding: 18px 20px;
+  }
+  .adoption-info-card li {
+    font-size: 14px;
+  }
+  .adoption-main-button {
+    width: 180px;
+    padding: 9px 22px;
+    font-size: 16px;
+  }
+}
