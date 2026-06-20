@@ -835,13 +835,13 @@ img {
 }
 .cats-section {
   min-height: 620px;
-  padding: 70px 40px 90px;
+  padding: 35px 40px 70px;
   text-align: center;
 }
 .cats-section h1 {
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 70px;
+  margin-bottom: 48px;
 }
 .cats-grid {
   display: flex;
