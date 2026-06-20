@@ -870,6 +870,7 @@ img {
   border-radius: 16px;
   padding: 18px 24px;
   text-align: left;
+  min-height: 190px;
 }
 .cat-info p {
   margin: 0;
