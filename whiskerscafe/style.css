@@ -833,3 +833,72 @@ img {
     line-height: 1.4;
   }
 }
+.cats-section {
+  min-height: 620px;
+  padding: 70px 40px 90px;
+  text-align: center;
+}
+.cats-section h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 70px;
+}
+.cats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.cat-profile {
+  width: 260px;
+}
+.cat-profile h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+.cat-image {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  background-color: #D3D3D3;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+.cat-info {
+  background-color: #372D30;
+  color: #EDD694;
+  border-radius: 16px;
+  padding: 18px 24px;
+  text-align: left;
+}
+.cat-info p {
+  margin: 0;
+}
+.traits-title {
+  margin-top: 16px;
+}
+.cat-info ul {
+  margin: 4px 0 14px 20px;
+  padding: 0;
+}
+.adopt-button, .unavailable-button {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  padding: 7px 12px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+.adopt-button {
+  background-color: #EDD694;
+  color: #372D30;
+}
+.adopt-button:hover {
+  text-decoration: underline;
+}
+.unavailable-button {
+  background-color: #D3D3D3;
+  color: #777777;
+}
