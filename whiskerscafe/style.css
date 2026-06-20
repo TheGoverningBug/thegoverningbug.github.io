@@ -902,3 +902,45 @@ img {
   background-color: #D3D3D3;
   color: #777777;
 }
+
+/* Mobile Compatibility For Our Cats Page */
+
+@media (max-width: 768px) {
+  .cats-section {
+    padding: 26px 16px 50px;
+  }
+  .cats-section h1 {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+  .cats-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+  }
+  .cat-profile {
+    width: 100%;
+    max-width: 260px;
+  }
+  .cat-profile h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .cat-image {
+    width: 130px;
+    height: 105px;
+    margin-bottom: 14px;
+  }
+  .cat-info {
+    padding: 14px 18px;
+    border-radius: 20px;
+  }
+  .cat-info p, .cat-info li {
+    font-size: 12px;
+  }
+  .adopt-button, .unavailable-button {
+    width: 95px;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
