@@ -956,3 +956,101 @@ img {
     font-size: 12px;
   }
 }
+
+/* Styling For Adoption Page */
+
+.adoption-section {
+  min-height: 620px;
+  padding: 42px 40px 60px;
+}
+.adoption-panel {
+  background-color: #372D30;
+  color: white;
+  width: 75%;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 36px 48px;
+  border-radius: 16px;
+  text-align: center;
+}
+.adoption-panel h1 {
+  font-size: 28px;
+  margin: 0 0 12px;
+}
+.adoption-subtitle {
+  margin: 0 0 30px;
+  font-size: 16px;
+}
+.adoption-panel h2 {
+  color: #EDD694;
+  font-size: 22px;
+  margin: 28px 0 20px;
+}
+.adoption-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+.adoption-step {
+  background-color: #4A3B3E;
+  border-radius: 14px;
+  padding: 22px 18px;
+}
+.step-number {
+  background-color: #EDD694;
+  color: #372D30;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.adoption-step h3 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+adoption-step p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+.adoption-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-top: 26px;
+}
+.adoption-info-card {
+  background-color: #4A3B3E;
+  border-radius: 20px;
+  padding: 22px 34px;
+  text-align: left;
+}
+adoption-info-card h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.adoption-info-card ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.adoption-info-card li {
+  margin-bottom: 8px;
+}
+.adoption-main-button {
+  background-color: #EDD694;
+  color: #372D30;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 48px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.adoption-main-button:hover {
+  text-decoration: underline;
+}
