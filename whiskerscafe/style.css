@@ -1110,3 +1110,80 @@ adoption-info-card h2 {
     font-size: 16px;
   }
 }
+
+/* Styling For Information Page */
+
+.information-section {
+  background-color: #372D30;
+  color: white;
+  width: 65%;
+  min-height: 620px;
+  margin: 0 auto;
+  padding: 45px 70px 60px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+.information-section h1 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+.information-subtitle {
+  font-size: 16px;
+  margin-bottom: 38px;
+}
+.information-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.information-card {
+  background-color: #4A3B3E;
+  border-radius: 20px;
+  padding: 26px 34px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+.information-card h2 {
+  color: #EDD694;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.information-card ul {
+  margin: 0;
+  padding-left: 22px;
+}
+.information-card li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.information-button {
+  background-color: #EDD694;
+  color: #372D30;
+  display: inline-block;
+  margin-top: 18px;
+  padding: 9px 28px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.information-button:hover {
+  text-decoration: underline;
+}
+.faq-item {
+  border-bottom: 1px solid rgba(255,255,255 0.5);
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+.faq-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.faq-item h3 {
+  font-size: 16px;
+  margin: 0 0 4px;
+  color: white;
+}
+.faq-item p {
+  margin: 0;
+  line-height: 1.4;
+}
