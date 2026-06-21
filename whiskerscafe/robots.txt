@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://thegoverningbug.github.io/whiskerscafe
+Sitemap: https://thegoverningbug.github.io/whiskerscafe/sitemap.xml
