@@ -1197,3 +1197,36 @@ adoption-info-card h2 {
   margin: 0;
   line-height: 1.4;
 }
+
+/* Mobile Compatibility For Information Page */
+
+@media(max-width: 768px) {
+  .information-section {
+    padding: 24px 16px 46px;
+  }
+  .information-panel {
+    width: 100%;
+    padding: 28px 18px;
+  }
+  .information-panel h1 {
+    font-size: 22px;
+  }
+  .information-subtitle {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 28px;
+  }
+  .information-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .information-card {
+    padding: 20px 22px;
+  }
+  .information-card h2 {
+    font-size: 18px;
+  }
+  .information-card li, .faq-item p {
+    font-size: 14px;
+  }
+}
